@@ -1,0 +1,15 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+{% block content %}
+<form style= "margin-top: 10px" action ="" method="POST">
+    {% csrf_token %}
+    {{formset.management_form}}
+    {% for form in formset  %}
+        {{form}}
+    <hr>
+    {% endfor %}
+    <div style="margin-bottom: 40px;">
+    <input name= "submit" type="submit" value="Submit"></div>
+</form>
+{% endblock %}
+    

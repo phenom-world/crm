@@ -1,0 +1,35 @@
+body {
+  background-color: #ebeff5;
+}
+
+#total-orders {
+  background-color: #4cb4c7;
+}
+
+#orders-delivered {
+  background-color: #7abecc;
+}
+
+#orders-pending {
+  background-color: #7cd1c0;
+}
+
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer span a {
+  color: rgb(135, 157, 158);
+  text-decoration: none;
+  font-weight: 500;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
